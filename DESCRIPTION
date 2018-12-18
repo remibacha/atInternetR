@@ -1,0 +1,17 @@
+Package: atInternetR
+Title: R interface with 'AT Internet' API
+Version: 0.1.0
+Authors@R: person("Remi", "Bacha", email = "hello@remibacha.com", role = c("aut", "cre"))
+Description: Implements methods for querying data from 'AT Internet' using its API. 'AT Internet' API uses your credentials for the authentication.
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Imports: ggplot2,
+    httr,
+    data.table
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
