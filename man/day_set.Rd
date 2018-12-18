@@ -2,9 +2,7 @@
 % Please edit documentation in R/day_set.R
 \name{day_set}
 \alias{day_set}
-\title{Get AT Internet Data - Set Period -
-This function allows you to get daily data from 'AT Internet' using set perdiod, with a start date and an end date.
-METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate}
+\title{Get Daily AT Internet Data - Set Period}
 \usage{
 day_set(ATuser, ATpassword, space, start_date, end_date, dim_source,
   dim_device, dim_level2, segment, pagination)
@@ -34,7 +32,6 @@ day_set(ATuser, ATpassword, space, start_date, end_date, dim_source,
 day_set extract the data you need from 'AT Internet' database, according to parameters you entered and then provides a dataset.
 }
 \description{
-Get AT Internet Data - Set Period -
 This function allows you to get daily data from 'AT Internet' using set perdiod, with a start date and an end date.
 METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate
 }

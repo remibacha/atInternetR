@@ -2,9 +2,7 @@
 % Please edit documentation in R/month_relative.R
 \name{month_relative}
 \alias{month_relative}
-\title{Get Monthly AT Internet Data - Relative Period -
-This function allows you to get monthly data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data.
-METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate}
+\title{Get Monthly AT Internet Data - Relative Period}
 \usage{
 month_relative(ATuser, ATpassword, space, period_duration,
   dim_source = NULL, dim_device = NULL, dim_level2 = NULL,
@@ -33,7 +31,6 @@ month_relative(ATuser, ATpassword, space, period_duration,
 month_relative extract the monthly data you need from 'AT Internet' database, according to parameters you entered and then provides a dataset.
 }
 \description{
-Get Monthly AT Internet Data - Relative Period -
 This function allows you to get monthly data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data.
 METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate
 }

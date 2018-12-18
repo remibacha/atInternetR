@@ -2,9 +2,7 @@
 % Please edit documentation in R/week_set.R
 \name{week_set}
 \alias{week_set}
-\title{Get Weekly AT Internet Data - Set Period -
-This function allows you to get weekly data from 'AT Internet' using set perdiod, with a start date and an end date.
-METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate}
+\title{Get Weekly AT Internet Data - Set Period}
 \usage{
 week_set(ATuser, ATpassword, space, start_date, end_date,
   dim_source = NULL, dim_device = NULL, dim_level2 = NULL,
@@ -35,7 +33,6 @@ week_set(ATuser, ATpassword, space, start_date, end_date,
 week_set extract the data you need from 'AT Internet' database, according to parameters you entered and then provides a dataset.
 }
 \description{
-Get Weekly AT Internet Data - Set Period -
 This function allows you to get weekly data from 'AT Internet' using set perdiod, with a start date and an end date.
 METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate
 }

@@ -2,9 +2,7 @@
 % Please edit documentation in R/day_relative.R
 \name{day_relative}
 \alias{day_relative}
-\title{Get Daily AT Internet Data - Relative Period -
-This function allows you to get daily data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data. It is no longer necessary to change the date, week, etc : you simply need to specify which month, week, etc. you want to refer to for this last minute of available data.
-METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate}
+\title{Get Daily AT Internet Data - Relative Period}
 \usage{
 day_relative(ATuser, ATpassword, space, period_duration,
   dim_source = NULL, dim_device = NULL, dim_level2 = NULL,
@@ -33,7 +31,6 @@ day_relative(ATuser, ATpassword, space, period_duration,
 day_relative extract the data you need from 'AT Internet' database, according to parameters you entered and then provides a dataset.
 }
 \description{
-Get Daily AT Internet Data - Relative Period -
 This function allows you to get daily data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data. It is no longer necessary to change the date, week, etc : you simply need to specify which month, week, etc. you want to refer to for this last minute of available data.
 METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate
 }

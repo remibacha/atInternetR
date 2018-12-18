@@ -2,9 +2,7 @@
 % Please edit documentation in R/week_relative.R
 \name{week_relative}
 \alias{week_relative}
-\title{Get Weekly AT Internet Data - Relative Period -
-This function allows you to get weekly data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data.
-METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate}
+\title{Get Weekly AT Internet Data - Relative Period}
 \usage{
 week_relative(ATuser, ATpassword, space, period_duration, dim_source,
   dim_device, dim_level2, segment, pagination)
@@ -32,7 +30,6 @@ week_relative(ATuser, ATpassword, space, period_duration, dim_source,
 weekly_relative extract the weekly data you need from 'AT Internet' database, according to parameters you entered and then provides a dataset.
 }
 \description{
-Get Weekly AT Internet Data - Relative Period -
 This function allows you to get weekly data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data.
 METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate
 }
