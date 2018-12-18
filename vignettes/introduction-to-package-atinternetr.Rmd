@@ -1,0 +1,46 @@
+---
+title: "atInternetR - R interface with AT Internet API"
+author: "Rémi Bacha"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## 1. Introduction
+The package `atInternetR` provides methods for querying data from 'AT Internet' using its API. 'AT Internet' API uses a basic authentication with an API key. Functions returns a dataframe composed by metrics like visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages and bounce rate.
+
+
+## 2. Installation
+See INSTALL for installation instructions and platform specific details.
+
+
+## 3. Functions
+### day_set()
+This function allows you to get daily data from 'AT Internet' using set perdiod, with a start date and an end date.
+
+### day_relative()
+This function allows you to get daily data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data.
+
+### week_set()
+This function allows you to get weekly data from 'AT Internet' using set perdiod, with a start date and an end date.
+
+### week_relative()
+This function allows you to get weekly data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data.
+
+### month_set()
+This function allows you to get monthly data from 'AT Internet' using set perdiod, with a start date and an end date.
+
+### month_relative()
+This function allows you to get monthly data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data.
+
+
