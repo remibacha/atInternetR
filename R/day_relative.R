@@ -33,7 +33,8 @@
 #'segment <- 204529097
 #'pagination <- 1
 #'
-#' dataset <- day_relative(ATuser, ATpassword, space, period_duration, dim_source, dim_device, dim_level2, segment, pagination)
+#' dataset <- day_relative(ATuser, ATpassword, space, period_duration,
+#'  dim_source, dim_device, dim_level2, segment, pagination)
 #'}
 #'
 #' @export
