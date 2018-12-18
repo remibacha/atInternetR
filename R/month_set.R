@@ -1,5 +1,5 @@
-#' Get Monthly AT Internet Data - Set Period -
-#' This function allows you to get monthly data from 'AT Internet' using set perdiod, with a start date and an end date.
+#' @title Get Monthly AT Internet Data - Set Period
+#' @description This function allows you to get monthly data from 'AT Internet' using set perdiod, with a start date and an end date.
 #' METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate
 #'
 #' @param ATuser Your 'AT Internet' user login

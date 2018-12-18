@@ -1,5 +1,5 @@
-#' Get Daily AT Internet Data - Relative Period -
-#' This function allows you to get daily data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data. It is no longer necessary to change the date, week, etc : you simply need to specify which month, week, etc. you want to refer to for this last minute of available data.
+#' @title Get Daily AT Internet Data - Relative Period
+#' @description This function allows you to get daily data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data. It is no longer necessary to change the date, week, etc : you simply need to specify which month, week, etc. you want to refer to for this last minute of available data.
 #' METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate
 #'
 #'

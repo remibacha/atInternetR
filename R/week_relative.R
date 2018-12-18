@@ -1,5 +1,5 @@
-#' Get Weekly AT Internet Data - Relative Period -
-#' This function allows you to get weekly data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data.
+#' @title Get Weekly AT Internet Data - Relative Period
+#' @description This function allows you to get weekly data from 'AT Internet' using relative period. Relative periods allow you to use periods that are automatically updated based on the last minute of available data.
 #' METRICS are visits, visitors, conversions visits, conversions rate, visits with sales, time spent per pages, bounce rate
 #'
 #' @param ATuser Your 'AT Internet' user login
